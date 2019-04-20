@@ -169,7 +169,7 @@ int checkMagicArray (int pp[8][8])
           
         
       
-        if (fila != d1&&fila!=d2)  
+        if (fila != d1||fila!=d2)  
             return false; 
     } 
   
@@ -185,7 +185,7 @@ int checkMagicArray (int pp[8][8])
         ;
      
     
-        if (d1!=columna&&d2!=columna) 
+        if (d1!=columna||d2!=columna) 
         return false; 
     } 
   
